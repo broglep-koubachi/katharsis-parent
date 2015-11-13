@@ -2,13 +2,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.katharsis</groupId>
+    <groupId>com.github.broglep-koubachi</groupId>
     <artifactId>katharsis-parent</artifactId>
-    <version>1.0.2</version>
+    <version>development-SNAPSHOT</version>
     <packaging>pom</packaging>
 
 	<name>Katharsis parent POM</name>
-	<url>https://github.com/katharsis-project/katharsis-parent</url>
+	<url>https://github.com/broglep-koubachi</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -228,4 +228,11 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 </project>
